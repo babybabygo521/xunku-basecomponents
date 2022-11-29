@@ -1,6 +1,7 @@
 <template>
   <div class="no-found-info" :style="{padding: newPadding}">
-    <div>
+    <button> 测试没有打包图片</button>
+    <!-- <div>
       <img v-if="size === 'large'" class="large-img" width="244px" src="./images/noData-large.png">
       <img v-if="size === 'small'" class="small-img" width="133px" src="./images/noData-small.png">
       <img v-if="size === 'mini'" class="mini-img" width="114px" src="./images/noData-small.png">
@@ -8,7 +9,7 @@
     <span class="label" :class="[size]">{{ label }}</span>
     <div v-if="createText.length>0" style="text-align: center">
       <span class="create-one" @click="onCreateClick">{{ createText }}</span>
-    </div>
+    </div> -->
   </div>
 </template>
 
