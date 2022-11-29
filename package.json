@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name xunku-basecomponents --dest lib src/index.js",
-    "push": "node script.js && npm run build && git add . && git commit -m 'commit' && git push"
+    "push": "node script.js && npm run build && git add . && git commit -m 'commit' && git push --set-upstream origin master"
   },
   "dependencies": {
     "core-js": "^3.8.3",
